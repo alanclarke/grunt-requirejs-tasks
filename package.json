@@ -1,7 +1,7 @@
 {
   "name": "grunt-requirejs-tasks",
   "description": "plugin enabling developers to build their code using require.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/alz/grunt-requirejs-tasks",
   "author": "Alan Clarke <code@alz.io> (alz.io)",
   "repository": {
