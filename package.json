@@ -3,11 +3,7 @@
   "description": "plugin enabling developers to build their code using require.js",
   "version": "0.1.0",
   "homepage": "https://github.com/alz/grunt-requirejs-tasks",
-  "author": {
-    "name": "Alan Clarke",
-    "email": "hi@alz.so",
-    "url": "alz.so"
-  },
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
   "repository": {
     "type": "git",
     "url": "git://github.com/alz/grunt-requirejs-tasks.git"
@@ -22,7 +18,9 @@
     }
   ],
   "main": "grunt.js",
-  "bin": "bin/grunt-requirejs-tasks",
+  "bin": {
+    "grunt-requirejs-tasks": "bin/grunt-requirejs-tasks"
+  },
   "engines": {
     "node": "*"
   },
@@ -37,5 +35,9 @@
   },
   "keywords": [
     "gruntplugin"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }
